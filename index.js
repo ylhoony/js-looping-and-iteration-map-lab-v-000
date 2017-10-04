@@ -21,6 +21,10 @@ function nameToAttributes(collection) {
   return newCollection;
 }
 
-function attributesToPhrase() {
-  
+function attributesToPhrase(collection) {
+  const newCollection = [];
+  collection.map(function(obj) {
+    newCollection.push(`${obj.name} is from ${obj.hometown}`);
+  });
+  return newCollection;
 }
