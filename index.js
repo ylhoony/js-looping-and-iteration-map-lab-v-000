@@ -18,4 +18,5 @@ function nameToAttributes(collection) {
     }
     newCollection.push(nameObject);
   });
+  return newCollection;
 }
