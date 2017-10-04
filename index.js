@@ -13,8 +13,8 @@ function nameToAttributes(collection) {
   collection.map(function(driver) {
     const nameArr = driver.split(' ');
     const nameObject = {
-      firstName: nameArr[0];
-      lastName: nameArr[1];
+      firstName: nameArr[0],
+      lastName: nameArr[1]
     }
     newCollection.push(nameObject);
   });
