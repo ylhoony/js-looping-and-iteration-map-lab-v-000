@@ -20,3 +20,7 @@ function nameToAttributes(collection) {
   });
   return newCollection;
 }
+
+function attributesToPhrase() {
+  
+}
