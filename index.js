@@ -2,7 +2,8 @@
 
 
 function lowerCaseDrivers(collection) {
-  return collection.map(function(driver) {
-    
-  })
+  const newCollection = collection.map(function(driver) {
+    return driver.toLowerCase();
+  });
+  return newCollection;
 }
